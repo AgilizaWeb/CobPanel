@@ -1,0 +1,6 @@
+{
+  "appName": "CobPanel",
+  "usarLandingPage": true,
+  "apiEnv": "development",
+  "backendUrl": "http://localhost:5555"
+}

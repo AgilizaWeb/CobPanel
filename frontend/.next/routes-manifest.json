@@ -1,0 +1,424 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [
+    {
+      "page": "/auth/login/[token]",
+      "regex": "^/auth/login/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPtoken": "nxtPtoken"
+      },
+      "namedRegex": "^/auth/login/(?<nxtPtoken>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/tickets/[id]",
+      "regex": "^/dashboard/admin/tickets/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/dashboard/admin/tickets/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/dashboard/cliente/cobranca/[id]",
+      "regex": "^/dashboard/cliente/cobranca/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/dashboard/cliente/cobranca/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/dashboard/cliente/fatura/[id]",
+      "regex": "^/dashboard/cliente/fatura/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/dashboard/cliente/fatura/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/financeiro/vendas/vendas-finais/[vendaId]",
+      "regex": "^/dashboard/empresa/financeiro/vendas/vendas\\-finais/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPvendaId": "nxtPvendaId"
+      },
+      "namedRegex": "^/dashboard/empresa/financeiro/vendas/vendas\\-finais/(?<nxtPvendaId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/produtos/cotacoes/[id]",
+      "regex": "^/dashboard/empresa/produtos/cotacoes/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/dashboard/empresa/produtos/cotacoes/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/tickets/[id]",
+      "regex": "^/dashboard/empresa/tickets/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/dashboard/empresa/tickets/(?<nxtPid>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/auth/login",
+      "regex": "^/auth/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/login(?:/)?$"
+    },
+    {
+      "page": "/auth/register",
+      "regex": "^/auth/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/register(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin",
+      "regex": "^/dashboard/admin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/empresas",
+      "regex": "^/dashboard/admin/empresas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin/empresas(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/gateways",
+      "regex": "^/dashboard/admin/gateways(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin/gateways(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/notificacoes",
+      "regex": "^/dashboard/admin/notificacoes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin/notificacoes(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/notificacoes/criar",
+      "regex": "^/dashboard/admin/notificacoes/criar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin/notificacoes/criar(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/perfil",
+      "regex": "^/dashboard/admin/perfil(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin/perfil(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/planos",
+      "regex": "^/dashboard/admin/planos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin/planos(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/relatorios",
+      "regex": "^/dashboard/admin/relatorios(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin/relatorios(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/tickets",
+      "regex": "^/dashboard/admin/tickets(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin/tickets(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/usuarios",
+      "regex": "^/dashboard/admin/usuarios(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin/usuarios(?:/)?$"
+    },
+    {
+      "page": "/dashboard/cliente",
+      "regex": "^/dashboard/cliente(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/cliente(?:/)?$"
+    },
+    {
+      "page": "/dashboard/cliente/cobrancas",
+      "regex": "^/dashboard/cliente/cobrancas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/cliente/cobrancas(?:/)?$"
+    },
+    {
+      "page": "/dashboard/cliente/faturas",
+      "regex": "^/dashboard/cliente/faturas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/cliente/faturas(?:/)?$"
+    },
+    {
+      "page": "/dashboard/cliente/minha-conta",
+      "regex": "^/dashboard/cliente/minha\\-conta(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/cliente/minha\\-conta(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa",
+      "regex": "^/dashboard/empresa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/alerts",
+      "regex": "^/dashboard/empresa/alerts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/alerts(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/avatars",
+      "regex": "^/dashboard/empresa/avatars(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/avatars(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/badge",
+      "regex": "^/dashboard/empresa/badge(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/badge(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/bar-chart",
+      "regex": "^/dashboard/empresa/bar\\-chart(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/bar\\-chart(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/basic-tables",
+      "regex": "^/dashboard/empresa/basic\\-tables(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/basic\\-tables(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/blank",
+      "regex": "^/dashboard/empresa/blank(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/blank(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/buttons",
+      "regex": "^/dashboard/empresa/buttons(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/buttons(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/calendar",
+      "regex": "^/dashboard/empresa/calendar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/calendar(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/clientes",
+      "regex": "^/dashboard/empresa/clientes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/clientes(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/configuracoes/bancos",
+      "regex": "^/dashboard/empresa/configuracoes/bancos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/configuracoes/bancos(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/configuracoes/conexoes",
+      "regex": "^/dashboard/empresa/configuracoes/conexoes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/configuracoes/conexoes(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/configuracoes/empresa",
+      "regex": "^/dashboard/empresa/configuracoes/empresa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/configuracoes/empresa(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/configuracoes/mensagens",
+      "regex": "^/dashboard/empresa/configuracoes/mensagens(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/configuracoes/mensagens(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/configuracoes/usuarios",
+      "regex": "^/dashboard/empresa/configuracoes/usuarios(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/configuracoes/usuarios(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/financeiro/contas-a-pagar",
+      "regex": "^/dashboard/empresa/financeiro/contas\\-a\\-pagar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/financeiro/contas\\-a\\-pagar(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/financeiro/contas-a-receber",
+      "regex": "^/dashboard/empresa/financeiro/contas\\-a\\-receber(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/financeiro/contas\\-a\\-receber(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/financeiro/fornecedores",
+      "regex": "^/dashboard/empresa/financeiro/fornecedores(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/financeiro/fornecedores(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/financeiro/vendas",
+      "regex": "^/dashboard/empresa/financeiro/vendas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/financeiro/vendas(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/form-elements",
+      "regex": "^/dashboard/empresa/form\\-elements(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/form\\-elements(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/images",
+      "regex": "^/dashboard/empresa/images(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/images(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/line-chart",
+      "regex": "^/dashboard/empresa/line\\-chart(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/line\\-chart(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/modals",
+      "regex": "^/dashboard/empresa/modals(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/modals(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/notificacoes",
+      "regex": "^/dashboard/empresa/notificacoes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/notificacoes(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/perfil",
+      "regex": "^/dashboard/empresa/perfil(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/perfil(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/planos/atual",
+      "regex": "^/dashboard/empresa/planos/atual(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/planos/atual(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/planos/contratar",
+      "regex": "^/dashboard/empresa/planos/contratar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/planos/contratar(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/produtos",
+      "regex": "^/dashboard/empresa/produtos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/produtos(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/produtos/cotacoes",
+      "regex": "^/dashboard/empresa/produtos/cotacoes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/produtos/cotacoes(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/produtos/movimentacoes",
+      "regex": "^/dashboard/empresa/produtos/movimentacoes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/produtos/movimentacoes(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/profile",
+      "regex": "^/dashboard/empresa/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/profile(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/profile2",
+      "regex": "^/dashboard/empresa/profile2(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/profile2(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/tickets",
+      "regex": "^/dashboard/empresa/tickets(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/tickets(?:/)?$"
+    },
+    {
+      "page": "/dashboard/empresa/videos",
+      "regex": "^/dashboard/empresa/videos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/empresa/videos(?:/)?$"
+    },
+    {
+      "page": "/error-404",
+      "regex": "^/error\\-404(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/error\\-404(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/icon.ico",
+      "regex": "^/icon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/icon\\.ico(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}

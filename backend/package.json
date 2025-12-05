@@ -1,0 +1,55 @@
+{
+  "name": "CobPanel Backend",
+  "version": "1.0.0",
+  "description": "CobPanel - Gestor de Cobranças - Backend",
+  "main": "src/server.js",
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "gestor",
+    "cobranças",
+    "nodejs",
+    "prisma",
+    "express"
+  ],
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:prod": "node -r bytenode dist/app.jsc",
+    "db:generate": "npx prisma generate",
+    "db:migrate": "npx prisma migrate dev",
+    "db:deploy": "npx prisma migrate deploy",
+    "db:studio": "npx prisma studio",
+    "db:seed": "node prisma/seed.js",
+    "db:start:dev": "npm run db:generate && npm run db:migrate && npm run db:seed",
+    "db:start:prod": "npm run db:generate && npm run db:deploy && npm run db:seed",
+    "build": "node scripts/compile.js",
+    "build:prod": "docker run --rm -v \"%cd%\":/app -w /app node:22 npm run build",
+    "publish:prod": "node scripts/publish_prod.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "axios": "^1.11.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^4.2.1",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "uuid": "^11.1.0",
+    "validator": "^13.11.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "prisma": "^6.14.0",
+    "bytenode": "latest",
+    "javascript-obfuscator": "latest"
+  }
+}

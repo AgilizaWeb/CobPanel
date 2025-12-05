@@ -1,0 +1,76 @@
+{
+  "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
+    "id": 90472,
+    "files": [
+      "static/chunks/472.2c08b965bd9148e2.js"
+    ]
+  },
+  "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": 99341,
+    "files": [
+      "static/chunks/9341.c00e1bbc955787be.js"
+    ]
+  },
+  "app\\(dashboard)\\dashboard\\admin\\tickets\\[id]\\page.tsx -> @/utils/cookies": {
+    "id": 2034,
+    "files": []
+  },
+  "app\\(dashboard)\\dashboard\\admin\\tickets\\[id]\\page.tsx -> socket.io-client": {
+    "id": 14298,
+    "files": []
+  },
+  "app\\(dashboard)\\dashboard\\empresa\\tickets\\[id]\\page.tsx -> @/utils/cookies": {
+    "id": 2034,
+    "files": []
+  },
+  "app\\(dashboard)\\dashboard\\empresa\\tickets\\[id]\\page.tsx -> socket.io-client": {
+    "id": 14298,
+    "files": []
+  },
+  "components\\charts\\bar\\BarChartOne.tsx -> react-apexcharts": {
+    "id": 78699,
+    "files": [
+      "static/chunks/477d4af2.f12b5c21f6442bb7.js",
+      "static/chunks/8699.d7044c0dd9cb497d.js"
+    ]
+  },
+  "components\\charts\\line\\LineChartOne.tsx -> react-apexcharts": {
+    "id": 78699,
+    "files": [
+      "static/chunks/477d4af2.f12b5c21f6442bb7.js",
+      "static/chunks/8699.d7044c0dd9cb497d.js"
+    ]
+  },
+  "components\\dashboard\\RevenueByMonthChart.tsx -> react-apexcharts": {
+    "id": 78699,
+    "files": [
+      "static/chunks/477d4af2.f12b5c21f6442bb7.js",
+      "static/chunks/8699.d7044c0dd9cb497d.js"
+    ]
+  },
+  "components\\dashboard\\SalesByStatusChart.tsx -> react-apexcharts": {
+    "id": 78699,
+    "files": [
+      "static/chunks/477d4af2.f12b5c21f6442bb7.js",
+      "static/chunks/8699.d7044c0dd9cb497d.js"
+    ]
+  },
+  "components\\form\\date-picker.tsx -> flatpickr": {
+    "id": 52125,
+    "files": [
+      "static/chunks/2125.9ca19a03acf9cac6.js"
+    ]
+  },
+  "components\\form\\date-picker.tsx -> flatpickr/dist/l10n/pt.js": {
+    "id": 39955,
+    "files": [
+      "static/chunks/9955.a5e500e674c78636.js"
+    ]
+  },
+  "components\\form\\date-picker.tsx -> shortcut-buttons-flatpickr": {
+    "id": 91873,
+    "files": [
+      "static/chunks/1873.bb729da7bd4fe841.js"
+    ]
+  }
+}

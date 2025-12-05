@@ -1,0 +1,48 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+release-notes-*.md
+
+# Arquivos de ambiente
+backend/.env
+frontend/.env
+
+# Uploads e arquivos temporários
+backend/dist/uploads/*.*
+backend/dist/uploads/tickets/*.*
+backend/dist/generated/
+
+
+# Package lock files
+backend/package-lock.json
+frontend/package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+frontend/public/config.json
+frontend/.next/cache/
+
+# Arquivos de sistema
+desktop.ini
+*.zip
+*.rar
+
+# Arquivos de certificados (se houver)
+*.pem
+*.key
+*.crt
