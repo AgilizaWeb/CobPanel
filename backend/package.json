@@ -1,6 +1,6 @@
 {
   "name": "CobPanel Backend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CobPanel - Gestor de Cobranças - Backend",
   "main": "src/server.js",
   "author": "",
