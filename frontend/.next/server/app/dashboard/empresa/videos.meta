@@ -3,5 +3,17 @@
     "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/(dashboard)/layout,_N_T_/(dashboard)/dashboard/layout,_N_T_/(dashboard)/dashboard/empresa/layout,_N_T_/(dashboard)/dashboard/empresa/(ui-elements)/layout,_N_T_/(dashboard)/dashboard/empresa/(ui-elements)/videos/layout,_N_T_/(dashboard)/dashboard/empresa/(ui-elements)/videos/page,_N_T_/dashboard/empresa/videos"
-  }
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGRhc2hib2FyZCk/dashboard/empresa/!KHVpLWVsZW1lbnRzKQ/videos/__PAGE__",
+    "/!KGRhc2hib2FyZCk/dashboard/empresa/!KHVpLWVsZW1lbnRzKQ/videos",
+    "/!KGRhc2hib2FyZCk/dashboard/empresa/!KHVpLWVsZW1lbnRzKQ",
+    "/!KGRhc2hib2FyZCk/dashboard/empresa",
+    "/!KGRhc2hib2FyZCk/dashboard",
+    "/!KGRhc2hib2FyZCk",
+    "/_index",
+    "/_head"
+  ]
 }

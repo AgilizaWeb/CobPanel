@@ -3,5 +3,18 @@
     "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/(dashboard)/layout,_N_T_/(dashboard)/dashboard/layout,_N_T_/(dashboard)/dashboard/empresa/layout,_N_T_/(dashboard)/dashboard/empresa/(others-pages)/layout,_N_T_/(dashboard)/dashboard/empresa/(others-pages)/(forms)/layout,_N_T_/(dashboard)/dashboard/empresa/(others-pages)/(forms)/form-elements/layout,_N_T_/(dashboard)/dashboard/empresa/(others-pages)/(forms)/form-elements/page,_N_T_/dashboard/empresa/form-elements"
-  }
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGRhc2hib2FyZCk/dashboard/empresa/!KG90aGVycy1wYWdlcyk/!KGZvcm1zKQ/form-elements/__PAGE__",
+    "/!KGRhc2hib2FyZCk/dashboard/empresa/!KG90aGVycy1wYWdlcyk/!KGZvcm1zKQ/form-elements",
+    "/!KGRhc2hib2FyZCk/dashboard/empresa/!KG90aGVycy1wYWdlcyk/!KGZvcm1zKQ",
+    "/!KGRhc2hib2FyZCk/dashboard/empresa/!KG90aGVycy1wYWdlcyk",
+    "/!KGRhc2hib2FyZCk/dashboard/empresa",
+    "/!KGRhc2hib2FyZCk/dashboard",
+    "/!KGRhc2hib2FyZCk",
+    "/_index",
+    "/_head"
+  ]
 }

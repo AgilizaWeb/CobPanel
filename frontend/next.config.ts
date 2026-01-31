@@ -6,25 +6,23 @@ const nextConfig: NextConfig = {
     // ⚠️ Desativa verificação de tipos durante o build
     // ignoreBuildErrors: true,
   },
-  eslint: {
-    // ⚠️ Desativa verificação do ESLint durante o build
-    // ignoreDuringBuilds: true,
-  },
   images: {
     remotePatterns: [{
       protocol: 'https',
       hostname: '*'
-    },{
+    }, {
       protocol: 'http',
       hostname: '*'
     }]
   },
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/,
-      use: ["@svgr/webpack"],
-    });
-    return config;
+  // Configuração do Turbopack (padrão no Next.js 16)
+  turbopack: {
+    rules: {
+      '*.svg': {
+        loaders: ['@svgr/webpack'],
+        as: '*.js',
+      },
+    },
   },
 };
 

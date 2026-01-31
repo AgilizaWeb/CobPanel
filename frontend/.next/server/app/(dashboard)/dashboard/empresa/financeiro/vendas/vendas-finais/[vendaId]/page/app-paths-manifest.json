@@ -1,0 +1,3 @@
+{
+  "/(dashboard)/dashboard/empresa/financeiro/vendas/vendas-finais/[vendaId]/page": "app/(dashboard)/dashboard/empresa/financeiro/vendas/vendas-finais/[vendaId]/page.js"
+}

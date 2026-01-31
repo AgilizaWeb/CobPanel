@@ -1,12 +1,7 @@
 {
   "version": 4,
   "routes": {
-    "/favicon.ico": {
-      "initialHeaders": {
-        "cache-control": "public, max-age=0, must-revalidate",
-        "content-type": "image/x-icon",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
-      },
+    "/_global-error": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -19,8 +14,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/favicon.ico",
-      "dataRoute": null,
+      "srcRoute": "/_global-error",
+      "dataRoute": "/_global-error.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -55,107 +50,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/icon.ico": {
-      "initialHeaders": {
-        "cache-control": "public, immutable, no-transform, max-age=31536000",
-        "content-type": "image/x-icon",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/icon.ico/layout,_N_T_/icon.ico/route,_N_T_/icon.ico"
-      },
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/icon.ico",
-      "dataRoute": null,
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/dashboard/admin/notificacoes/criar": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/admin/notificacoes/criar",
-      "dataRoute": "/dashboard/admin/notificacoes/criar.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/dashboard/admin/perfil": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/admin/perfil",
-      "dataRoute": "/dashboard/admin/perfil.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/",
-      "dataRoute": "/index.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/dashboard/admin/empresas": {
       "experimentalBypassFor": [
         {
@@ -171,30 +65,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/dashboard/admin/empresas",
       "dataRoute": "/dashboard/admin/empresas.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/dashboard/admin/planos": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/admin/planos",
-      "dataRoute": "/dashboard/admin/planos.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -228,7 +98,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/dashboard/admin/usuarios": {
+    "/dashboard/admin/notificacoes/criar": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -241,8 +111,80 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/admin/usuarios",
-      "dataRoute": "/dashboard/admin/usuarios.rsc",
+      "srcRoute": "/dashboard/admin/notificacoes/criar",
+      "dataRoute": "/dashboard/admin/notificacoes/criar.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/dashboard/admin/notificacoes": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dashboard/admin/notificacoes",
+      "dataRoute": "/dashboard/admin/notificacoes.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/dashboard/admin/perfil": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dashboard/admin/perfil",
+      "dataRoute": "/dashboard/admin/perfil.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/dashboard/admin/planos": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dashboard/admin/planos",
+      "dataRoute": "/dashboard/admin/planos.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -300,6 +242,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/dashboard/admin/usuarios": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dashboard/admin/usuarios",
+      "dataRoute": "/dashboard/admin/usuarios.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/dashboard/cliente/cobrancas": {
       "experimentalBypassFor": [
         {
@@ -348,6 +314,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/dashboard/cliente/minha-conta": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dashboard/cliente/minha-conta",
+      "dataRoute": "/dashboard/cliente/minha-conta.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/dashboard/cliente": {
       "experimentalBypassFor": [
         {
@@ -363,6 +353,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/dashboard/cliente",
       "dataRoute": "/dashboard/cliente.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/dashboard/empresa/bar-chart": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dashboard/empresa/bar-chart",
+      "dataRoute": "/dashboard/empresa/bar-chart.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -396,7 +410,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/dashboard/admin/notificacoes": {
+    "/dashboard/empresa/form-elements": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -409,80 +423,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/admin/notificacoes",
-      "dataRoute": "/dashboard/admin/notificacoes.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/dashboard/cliente/minha-conta": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/cliente/minha-conta",
-      "dataRoute": "/dashboard/cliente/minha-conta.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/dashboard/empresa/blank": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/empresa/blank",
-      "dataRoute": "/dashboard/empresa/blank.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/dashboard/empresa/profile2": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/empresa/profile2",
-      "dataRoute": "/dashboard/empresa/profile2.rsc",
+      "srcRoute": "/dashboard/empresa/form-elements",
+      "dataRoute": "/dashboard/empresa/form-elements.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -516,6 +458,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/dashboard/empresa/blank": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dashboard/empresa/blank",
+      "dataRoute": "/dashboard/empresa/blank.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/dashboard/empresa/calendar": {
       "experimentalBypassFor": [
         {
@@ -540,7 +506,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/dashboard/empresa/avatars": {
+    "/dashboard/empresa/profile2": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -553,8 +519,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/empresa/avatars",
-      "dataRoute": "/dashboard/empresa/avatars.rsc",
+      "srcRoute": "/dashboard/empresa/profile2",
+      "dataRoute": "/dashboard/empresa/profile2.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -588,7 +554,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/dashboard/empresa/images": {
+    "/dashboard/empresa/avatars": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -601,32 +567,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/empresa/images",
-      "dataRoute": "/dashboard/empresa/images.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/dashboard/empresa/buttons": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/empresa/buttons",
-      "dataRoute": "/dashboard/empresa/buttons.rsc",
+      "srcRoute": "/dashboard/empresa/avatars",
+      "dataRoute": "/dashboard/empresa/avatars.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -660,7 +602,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/dashboard/empresa/videos": {
+    "/dashboard/empresa/images": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -673,8 +615,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/empresa/videos",
-      "dataRoute": "/dashboard/empresa/videos.rsc",
+      "srcRoute": "/dashboard/empresa/images",
+      "dataRoute": "/dashboard/empresa/images.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -708,7 +650,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/dashboard/empresa/configuracoes/bancos": {
+    "/dashboard/empresa/videos": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -721,8 +663,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/empresa/configuracoes/bancos",
-      "dataRoute": "/dashboard/empresa/configuracoes/bancos.rsc",
+      "srcRoute": "/dashboard/empresa/videos",
+      "dataRoute": "/dashboard/empresa/videos.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -756,6 +698,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/dashboard/empresa/configuracoes/bancos": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dashboard/empresa/configuracoes/bancos",
+      "dataRoute": "/dashboard/empresa/configuracoes/bancos.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/dashboard/empresa/configuracoes/conexoes": {
       "experimentalBypassFor": [
         {
@@ -771,54 +737,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/dashboard/empresa/configuracoes/conexoes",
       "dataRoute": "/dashboard/empresa/configuracoes/conexoes.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/dashboard/empresa/configuracoes/usuarios": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/empresa/configuracoes/usuarios",
-      "dataRoute": "/dashboard/empresa/configuracoes/usuarios.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/dashboard/empresa/configuracoes/mensagens": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/empresa/configuracoes/mensagens",
-      "dataRoute": "/dashboard/empresa/configuracoes/mensagens.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -852,7 +770,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/dashboard/empresa/form-elements": {
+    "/dashboard/empresa/configuracoes/mensagens": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -865,8 +783,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/empresa/form-elements",
-      "dataRoute": "/dashboard/empresa/form-elements.rsc",
+      "srcRoute": "/dashboard/empresa/configuracoes/mensagens",
+      "dataRoute": "/dashboard/empresa/configuracoes/mensagens.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -876,7 +794,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/dashboard/empresa/financeiro/vendas": {
+    "/dashboard/empresa/configuracoes/usuarios": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -889,8 +807,32 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/empresa/financeiro/vendas",
-      "dataRoute": "/dashboard/empresa/financeiro/vendas.rsc",
+      "srcRoute": "/dashboard/empresa/configuracoes/usuarios",
+      "dataRoute": "/dashboard/empresa/configuracoes/usuarios.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/dashboard/empresa/financeiro/contas-a-pagar": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dashboard/empresa/financeiro/contas-a-pagar",
+      "dataRoute": "/dashboard/empresa/financeiro/contas-a-pagar.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -924,7 +866,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/dashboard/empresa/perfil": {
+    "/dashboard/empresa/financeiro/fornecedores": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -937,8 +879,32 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/empresa/perfil",
-      "dataRoute": "/dashboard/empresa/perfil.rsc",
+      "srcRoute": "/dashboard/empresa/financeiro/fornecedores",
+      "dataRoute": "/dashboard/empresa/financeiro/fornecedores.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/dashboard/empresa/financeiro/vendas": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dashboard/empresa/financeiro/vendas",
+      "dataRoute": "/dashboard/empresa/financeiro/vendas.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -972,6 +938,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/dashboard/empresa/perfil": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dashboard/empresa/perfil",
+      "dataRoute": "/dashboard/empresa/perfil.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/dashboard/empresa/planos/atual": {
       "experimentalBypassFor": [
         {
@@ -987,30 +977,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/dashboard/empresa/planos/atual",
       "dataRoute": "/dashboard/empresa/planos/atual.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/dashboard/empresa": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/empresa",
-      "dataRoute": "/dashboard/empresa.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1044,30 +1010,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/dashboard/empresa/produtos/movimentacoes": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/empresa/produtos/movimentacoes",
-      "dataRoute": "/dashboard/empresa/produtos/movimentacoes.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/dashboard/empresa/produtos/cotacoes": {
       "experimentalBypassFor": [
         {
@@ -1083,6 +1025,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/dashboard/empresa/produtos/cotacoes",
       "dataRoute": "/dashboard/empresa/produtos/cotacoes.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/dashboard/empresa/produtos/movimentacoes": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dashboard/empresa/produtos/movimentacoes",
+      "dataRoute": "/dashboard/empresa/produtos/movimentacoes.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1236,7 +1202,12 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/dashboard/empresa/financeiro/fornecedores": {
+    "/favicon.ico": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "image/x-icon",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
+      },
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -1249,8 +1220,61 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/dashboard/empresa/financeiro/fornecedores",
-      "dataRoute": "/dashboard/empresa/financeiro/fornecedores.rsc",
+      "srcRoute": "/favicon.ico",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/icon.ico": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "image/x-icon",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/icon.ico/layout,_N_T_/icon.ico/route,_N_T_/icon.ico"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/icon.ico",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1264,8 +1288,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "f045a32f96aa43a705aaed07983d16f5",
-    "previewModeSigningKey": "de468753cc4ce2f265373952beb74be1b936dd03277e56144b061ff2fdfed2d4",
-    "previewModeEncryptionKey": "87ff7e009330b5b4a1d50d60e57013ca8d426e5449118c56e17f6e1d9254094f"
+    "previewModeId": "9a2e6bdebe4ee124d3982c8a665e3382",
+    "previewModeSigningKey": "4771fa13450b0135d2a8f1f53106762b3949a474c273cde9ddc9c44f8873bb7c",
+    "previewModeEncryptionKey": "80d0a459a9391eb7c5f9638ddc01fc750456f89f8d4fa83f23e6b11cedaf9a49"
   }
 }

@@ -1,1 +1,187 @@
-{"pages":{},"app":{},"appUsingSizeAdjust":false,"pagesUsingSizeAdjust":false}
+{
+  "app": {
+    "[project]/src/app/(dashboard)/dashboard/admin/empresas/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/admin/gateways/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/admin/notificacoes/criar/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/admin/notificacoes/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/admin/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/admin/perfil/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/admin/planos/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/admin/relatorios/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/admin/tickets/[id]/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/admin/tickets/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/admin/usuarios/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/cliente/cobranca/[id]/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/cliente/cobrancas/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/cliente/fatura/[id]/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/cliente/faturas/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/cliente/minha-conta/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/cliente/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/(others-pages)/(chart)/bar-chart/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/(others-pages)/(chart)/line-chart/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/(others-pages)/(forms)/form-elements/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/(others-pages)/(tables)/basic-tables/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/(others-pages)/blank/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/(others-pages)/calendar/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/(others-pages)/profile2/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/(ui-elements)/alerts/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/(ui-elements)/avatars/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/(ui-elements)/badge/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/(ui-elements)/buttons/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/(ui-elements)/images/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/(ui-elements)/modals/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/(ui-elements)/videos/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/clientes/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/configuracoes/bancos/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/configuracoes/conexoes/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/configuracoes/empresa/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/configuracoes/mensagens/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/configuracoes/usuarios/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/financeiro/contas-a-pagar/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/financeiro/contas-a-receber/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/financeiro/fornecedores/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/financeiro/vendas/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/financeiro/vendas/vendas-finais/[vendaId]/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/notificacoes/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/perfil/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/planos/atual/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/planos/contratar/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/produtos/cotacoes/[id]/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/produtos/cotacoes/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/produtos/movimentacoes/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/produtos/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/profile/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/tickets/[id]/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(dashboard)/dashboard/empresa/tickets/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/(full-width-pages)/(error-pages)/error-404/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/_not-found/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/auth/login/[token]/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/auth/login/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/auth/register/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ],
+    "[project]/src/app/page": [
+      "static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

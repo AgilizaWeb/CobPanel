@@ -3,5 +3,18 @@
     "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/(dashboard)/layout,_N_T_/(dashboard)/dashboard/layout,_N_T_/(dashboard)/dashboard/empresa/layout,_N_T_/(dashboard)/dashboard/empresa/(others-pages)/layout,_N_T_/(dashboard)/dashboard/empresa/(others-pages)/(tables)/layout,_N_T_/(dashboard)/dashboard/empresa/(others-pages)/(tables)/basic-tables/layout,_N_T_/(dashboard)/dashboard/empresa/(others-pages)/(tables)/basic-tables/page,_N_T_/dashboard/empresa/basic-tables"
-  }
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGRhc2hib2FyZCk/dashboard/empresa/!KG90aGVycy1wYWdlcyk/!KHRhYmxlcyk/basic-tables/__PAGE__",
+    "/!KGRhc2hib2FyZCk/dashboard/empresa/!KG90aGVycy1wYWdlcyk/!KHRhYmxlcyk/basic-tables",
+    "/!KGRhc2hib2FyZCk/dashboard/empresa/!KG90aGVycy1wYWdlcyk/!KHRhYmxlcyk",
+    "/!KGRhc2hib2FyZCk/dashboard/empresa/!KG90aGVycy1wYWdlcyk",
+    "/!KGRhc2hib2FyZCk/dashboard/empresa",
+    "/!KGRhc2hib2FyZCk/dashboard",
+    "/!KGRhc2hib2FyZCk",
+    "/_index",
+    "/_head"
+  ]
 }

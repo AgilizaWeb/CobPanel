@@ -1,52 +1,6 @@
 {
   "version": 3,
-  "middleware": {
-    "/": {
-      "files": [
-        "server/edge-runtime-webpack.js",
-        "server/src/middleware.js"
-      ],
-      "name": "src/middleware",
-      "page": "/",
-      "matchers": [
-        {
-          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/(\\/?index|\\/?index\\.json))?[\\/#\\?]?$",
-          "originalSource": "/"
-        },
-        {
-          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/admin(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\.json)?[\\/#\\?]?$",
-          "originalSource": "/admin/:path*"
-        },
-        {
-          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/empresa(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\.json)?[\\/#\\?]?$",
-          "originalSource": "/empresa/:path*"
-        },
-        {
-          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/vendas(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\.json)?[\\/#\\?]?$",
-          "originalSource": "/vendas/:path*"
-        },
-        {
-          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/cliente(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\.json)?[\\/#\\?]?$",
-          "originalSource": "/cliente/:path*"
-        },
-        {
-          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/auth(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\.json)?[\\/#\\?]?$",
-          "originalSource": "/auth/:path*"
-        }
-      ],
-      "wasm": [],
-      "assets": [],
-      "env": {
-        "__NEXT_BUILD_ID": "sh466bp-M5FONcHxX5dAg",
-        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "xxIt77zr9zEBE+Takjr4Vl8pbqoE0YDW6aR0hUMdMaw=",
-        "__NEXT_PREVIEW_MODE_ID": "f045a32f96aa43a705aaed07983d16f5",
-        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "de468753cc4ce2f265373952beb74be1b936dd03277e56144b061ff2fdfed2d4",
-        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "87ff7e009330b5b4a1d50d60e57013ca8d426e5449118c56e17f6e1d9254094f"
-      }
-    }
-  },
-  "functions": {},
-  "sortedMiddleware": [
-    "/"
-  ]
+  "middleware": {},
+  "sortedMiddleware": [],
+  "functions": {}
 }
